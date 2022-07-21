@@ -57,8 +57,8 @@
         'marginLeft': (-hItemsWidth * hItemsLength) + (hItemLast.width()/2)
       });
 
-      hItems.eq(5).removeClass().addClass('active');
-      hItems.eq(4).removeClass().addClass('far');
+      hItems.eq(6).removeClass().addClass('active');
+      hItems.eq(5).removeClass().addClass('far');
 
       histLine.css({
         'width': hItemsLength*hItemsWidth
